@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 devDependencies:
   '@algolia/client-search':
@@ -41,8 +45,8 @@ devDependencies:
     specifier: 2.4.1
     version: 2.4.1(react-dom@17.0.2)(react@17.0.2)
   '@mdx-js/react':
-    specifier: ^1.6.22
-    version: 1.6.22(react@17.0.2)
+    specifier: ^2.0.0
+    version: 2.0.0(react@17.0.2)
   '@silverhand/eslint-config':
     specifier: ^0.17.0
     version: 0.17.0(eslint@8.17.0)(prettier@2.7.0)(typescript@5.0.2)
@@ -2733,6 +2737,16 @@ packages:
       react: 17.0.2
     dev: true
 
+  /@mdx-js/react@2.0.0(react@17.0.2):
+    resolution: {integrity: sha512-icpMd43xqORnHSVRwALZv3ELN3IS7VS3BL+FyH2FFergQPSQ21FX0lN+OMIs0X+3dGY1L0DLhBCkMfPO+yDG7Q==}
+    peerDependencies:
+      react: '>=16'
+    dependencies:
+      '@types/mdx': 2.0.5
+      '@types/react': 17.0.53
+      react: 17.0.2
+    dev: true
+
   /@mdx-js/util@1.6.22:
     resolution: {integrity: sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==}
     dev: true
@@ -3213,6 +3227,10 @@ packages:
     resolution: {integrity: sha512-W864tg/Osz1+9f4lrGTZpCSO5/z4608eUp19tbozkq2HJK6i3z1kT0H9tlADXuYIb1YYOBByU4Jsqkk75q48qA==}
     dependencies:
       '@types/unist': 2.0.6
+    dev: true
+
+  /@types/mdx@2.0.5:
+    resolution: {integrity: sha512-76CqzuD6Q7LC+AtbPqrvD9AqsN0k8bsYo2bM2J8pmNldP1aIPAbzUQ7QbobyXL4eLr1wK5x8FZFe8eF/ubRuBg==}
     dev: true
 
   /@types/mime@1.3.2:
